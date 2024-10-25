@@ -10,7 +10,7 @@ import java.sql.Connection;
 public class testdb {
     private Logger logger = LoggerFactory.getLogger(testdb.class);
     @Test
-    public void testDB(){
+    public void testLA(){
         Connection connection = DBUtil.getConnection();
         logger.info("获取数据库连接"+connection);
     }
